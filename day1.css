@@ -10,3 +10,30 @@ h3{
 .surname{
     color:darkslateblue;
 }
+ul{
+    list-style-type: square;
+}
+li{
+    color: blueviolet;
+}
+li::marker{
+    color: black;
+}
+#start_paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+iframe{
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#vid_section{
+    background-color: darkred;
+}
+#vid{
+    display: grid;
+    place-items: center;
+}
