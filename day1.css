@@ -1,0 +1,12 @@
+h3{
+    text-align: center; 
+    color: brown; 
+    font-style: italic;
+    background-color: bisque;
+}
+.name{
+    color: coral;
+}
+.surname{
+    color:darkslateblue;
+}
