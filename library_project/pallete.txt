@@ -1,0 +1,4 @@
+dark-brown: #1c0a00
+dark-red: #731a10 
+beige: #e9ca93
+muddy-green: #433c2d
