@@ -101,6 +101,20 @@
                 </div>
             </div>
         </li>
+        <li class="contact_us">
+            <h1>Leave us a message</h1>
+            <form action="send_message.php" method="post">
+                <label class="item1" for="name">Name:</label>
+                <input class="item2" type="text" id="name" name="name" required>
+                <label class="item3" for="email">Email:</label>
+                <input class="item4" type="email" id="email" name="email" required>
+                <label class="item5" for="subject">Subject:</label>
+                <input class="item6" type="subject" id="subject" name="subject" required>
+                <label class="item7" for="message">Message:</label>
+                <textarea class="item8" id="message" name="message" rows="5" required></textarea>
+                <button class="item9" type="submit">Send</button>
+            </form>
+        </li>
     </ul>
 </body>
 
